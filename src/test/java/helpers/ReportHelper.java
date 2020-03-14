@@ -8,6 +8,7 @@ import net.masterthought.cucumber.*;
 
 public class ReportHelper {
 
+//Reporter Method
     public static void generateCucumberReport() {
         File reportOutputDirectory = new File("target");
         ArrayList<String> jsonFiles = new ArrayList<String>();
